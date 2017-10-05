@@ -1,4 +1,4 @@
-package net.ijichi.recyclerviewsample
+package net.ijichi.recyclerviewsample.views
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,9 @@ import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
+import net.ijichi.recyclerviewsample.R
+import net.ijichi.recyclerviewsample.models.RecyclerState
+import net.ijichi.recyclerviewsample.models.RecyclerType
 
 
 class MainActivity : AppCompatActivity() {

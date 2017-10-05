@@ -1,10 +1,12 @@
-package net.ijichi.recyclerviewsample
+package net.ijichi.recyclerviewsample.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
 import android.widget.TextView
+import net.ijichi.recyclerviewsample.R
+import net.ijichi.recyclerviewsample.models.RecyclerState
 
 /**
  * Created by ijichiyoshihito on 2017/08/30.

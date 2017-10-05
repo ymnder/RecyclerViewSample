@@ -1,4 +1,4 @@
-package net.ijichi.recyclerviewsample
+package net.ijichi.recyclerviewsample.models
 
 /**
  * Created by ijichiyoshihito on 2017/08/31.
@@ -11,9 +11,9 @@ enum class RecyclerType(val int: Int){
   BODY(3);
 
   companion object {
-    fun fromInt(int: Int): RecyclerType{
+    fun fromInt(int: Int): RecyclerType {
       return values().firstOrNull { it.int == int }
-        ?: RecyclerType.BODY
+        ?: BODY
     }
   }
 }

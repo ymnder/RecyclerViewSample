@@ -1,4 +1,4 @@
-package net.ijichi.recyclerviewsample
+package net.ijichi.recyclerviewsample.models
 
 /**
  * Created by ijichiyoshihito on 2017/08/30.
